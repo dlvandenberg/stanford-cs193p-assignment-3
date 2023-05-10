@@ -7,18 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0808A89C2A0586D200CA3AB1 /* SetCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0808A89B2A0586D200CA3AB1 /* SetCard.swift */; };
+		0808A89E2A058D5F00CA3AB1 /* SetDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0808A89D2A058D5F00CA3AB1 /* SetDeck.swift */; };
+		0808A8A12A061A0600CA3AB1 /* SetSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0808A8A02A061A0600CA3AB1 /* SetSelection.swift */; };
+		0808A8A42A062FB400CA3AB1 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0808A8A32A062FB400CA3AB1 /* Card.swift */; };
+		0808A8A62A06384A00CA3AB1 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0808A8A52A06384A00CA3AB1 /* Deck.swift */; };
+		0808A8A82A08D53900CA3AB1 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0808A8A72A08D53900CA3AB1 /* ShapeView.swift */; };
+		0808A8AA2A08D7C200CA3AB1 /* ActionBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0808A8A92A08D7C200CA3AB1 /* ActionBarView.swift */; };
+		084E43172A0A823D0090E74F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084E43162A0A823D0090E74F /* Extensions.swift */; };
+		0865EA382A0A360900EC20F6 /* StripedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0865EA372A0A360900EC20F6 /* StripedView.swift */; };
+		0865EA3A2A0A423F00EC20F6 /* TopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0865EA392A0A423F00EC20F6 /* TopBarView.swift */; };
 		08CFE7ED2A001130000B7FF0 /* SetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CFE7EC2A001130000B7FF0 /* SetApp.swift */; };
-		08CFE7EF2A001130000B7FF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CFE7EE2A001130000B7FF0 /* ContentView.swift */; };
+		08CFE7EF2A001130000B7FF0 /* SetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CFE7EE2A001130000B7FF0 /* SetView.swift */; };
 		08CFE7F12A001132000B7FF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08CFE7F02A001132000B7FF0 /* Assets.xcassets */; };
 		08CFE7F42A001132000B7FF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08CFE7F32A001132000B7FF0 /* Preview Assets.xcassets */; };
+		08CFE7FE2A001156000B7FF0 /* SetGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CFE7FD2A001156000B7FF0 /* SetGame.swift */; };
+		08CFE8002A0030FD000B7FF0 /* Diamond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CFE7FF2A0030FD000B7FF0 /* Diamond.swift */; };
+		08CFE8022A003682000B7FF0 /* Oval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CFE8012A003682000B7FF0 /* Oval.swift */; };
+		08CFE8042A00DA53000B7FF0 /* Squiggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CFE8032A00DA53000B7FF0 /* Squiggle.swift */; };
+		08CFE8082A0137FC000B7FF0 /* SquiggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CFE8072A0137FC000B7FF0 /* SquiggleView.swift */; };
+		08CFE80A2A017BFD000B7FF0 /* SetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CFE8092A017BFD000B7FF0 /* SetViewModel.swift */; };
+		08CFE80C2A01838D000B7FF0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CFE80B2A01838D000B7FF0 /* CardView.swift */; };
+		08CFE80E2A0183E0000B7FF0 /* SetCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CFE80D2A0183E0000B7FF0 /* SetCardViewModel.swift */; };
+		08CFE8102A01861A000B7FF0 /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CFE80F2A01861A000B7FF0 /* AspectVGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0808A89B2A0586D200CA3AB1 /* SetCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCard.swift; sourceTree = "<group>"; };
+		0808A89D2A058D5F00CA3AB1 /* SetDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetDeck.swift; sourceTree = "<group>"; };
+		0808A8A02A061A0600CA3AB1 /* SetSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetSelection.swift; sourceTree = "<group>"; };
+		0808A8A32A062FB400CA3AB1 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		0808A8A52A06384A00CA3AB1 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		0808A8A72A08D53900CA3AB1 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+		0808A8A92A08D7C200CA3AB1 /* ActionBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionBarView.swift; sourceTree = "<group>"; };
+		084E43162A0A823D0090E74F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0865EA372A0A360900EC20F6 /* StripedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripedView.swift; sourceTree = "<group>"; };
+		0865EA392A0A423F00EC20F6 /* TopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarView.swift; sourceTree = "<group>"; };
 		08CFE7E92A001130000B7FF0 /* Set.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Set.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08CFE7EC2A001130000B7FF0 /* SetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetApp.swift; sourceTree = "<group>"; };
-		08CFE7EE2A001130000B7FF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		08CFE7EE2A001130000B7FF0 /* SetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetView.swift; sourceTree = "<group>"; };
 		08CFE7F02A001132000B7FF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08CFE7F32A001132000B7FF0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		08CFE7FD2A001156000B7FF0 /* SetGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGame.swift; sourceTree = "<group>"; };
+		08CFE7FF2A0030FD000B7FF0 /* Diamond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diamond.swift; sourceTree = "<group>"; };
+		08CFE8012A003682000B7FF0 /* Oval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oval.swift; sourceTree = "<group>"; };
+		08CFE8032A00DA53000B7FF0 /* Squiggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squiggle.swift; sourceTree = "<group>"; };
+		08CFE8072A0137FC000B7FF0 /* SquiggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquiggleView.swift; sourceTree = "<group>"; };
+		08CFE8092A017BFD000B7FF0 /* SetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetViewModel.swift; sourceTree = "<group>"; };
+		08CFE80B2A01838D000B7FF0 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		08CFE80D2A0183E0000B7FF0 /* SetCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCardViewModel.swift; sourceTree = "<group>"; };
+		08CFE80F2A01861A000B7FF0 /* AspectVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +70,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0808A89F2A058F5000CA3AB1 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				08CFE7FF2A0030FD000B7FF0 /* Diamond.swift */,
+				08CFE8012A003682000B7FF0 /* Oval.swift */,
+				08CFE8032A00DA53000B7FF0 /* Squiggle.swift */,
+				08CFE8072A0137FC000B7FF0 /* SquiggleView.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		0808A8A22A062FAB00CA3AB1 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				0808A8A32A062FB400CA3AB1 /* Card.swift */,
+				0808A8A52A06384A00CA3AB1 /* Deck.swift */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
+		084E43152A0A82250090E74F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				084E43162A0A823D0090E74F /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		08CFE7E02A001130000B7FF0 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +117,11 @@
 		08CFE7EB2A001130000B7FF0 /* Set */ = {
 			isa = PBXGroup;
 			children = (
+				084E43152A0A82250090E74F /* Extensions */,
+				08CFE7FC2A001148000B7FF0 /* View */,
+				08CFE7FB2A001144000B7FF0 /* ViewModel */,
+				08CFE7FA2A001140000B7FF0 /* Model */,
 				08CFE7EC2A001130000B7FF0 /* SetApp.swift */,
-				08CFE7EE2A001130000B7FF0 /* ContentView.swift */,
 				08CFE7F02A001132000B7FF0 /* Assets.xcassets */,
 				08CFE7F22A001132000B7FF0 /* Preview Content */,
 			);
@@ -65,6 +134,42 @@
 				08CFE7F32A001132000B7FF0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		08CFE7FA2A001140000B7FF0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				08CFE7FD2A001156000B7FF0 /* SetGame.swift */,
+				0808A8A02A061A0600CA3AB1 /* SetSelection.swift */,
+				0808A89B2A0586D200CA3AB1 /* SetCard.swift */,
+				0808A89D2A058D5F00CA3AB1 /* SetDeck.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		08CFE7FB2A001144000B7FF0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0808A8A22A062FAB00CA3AB1 /* Default */,
+				08CFE8092A017BFD000B7FF0 /* SetViewModel.swift */,
+				08CFE80D2A0183E0000B7FF0 /* SetCardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		08CFE7FC2A001148000B7FF0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0808A89F2A058F5000CA3AB1 /* Shapes */,
+				08CFE80B2A01838D000B7FF0 /* CardView.swift */,
+				0808A8A72A08D53900CA3AB1 /* ShapeView.swift */,
+				0865EA372A0A360900EC20F6 /* StripedView.swift */,
+				08CFE7EE2A001130000B7FF0 /* SetView.swift */,
+				08CFE80F2A01861A000B7FF0 /* AspectVGrid.swift */,
+				0808A8A92A08D7C200CA3AB1 /* ActionBarView.swift */,
+				0865EA392A0A423F00EC20F6 /* TopBarView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +242,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08CFE7EF2A001130000B7FF0 /* ContentView.swift in Sources */,
+				08CFE8042A00DA53000B7FF0 /* Squiggle.swift in Sources */,
+				08CFE80C2A01838D000B7FF0 /* CardView.swift in Sources */,
+				08CFE8002A0030FD000B7FF0 /* Diamond.swift in Sources */,
+				08CFE8022A003682000B7FF0 /* Oval.swift in Sources */,
+				08CFE8102A01861A000B7FF0 /* AspectVGrid.swift in Sources */,
+				0808A89E2A058D5F00CA3AB1 /* SetDeck.swift in Sources */,
+				08CFE8082A0137FC000B7FF0 /* SquiggleView.swift in Sources */,
+				0808A8A42A062FB400CA3AB1 /* Card.swift in Sources */,
+				0808A89C2A0586D200CA3AB1 /* SetCard.swift in Sources */,
+				08CFE7EF2A001130000B7FF0 /* SetView.swift in Sources */,
+				0865EA382A0A360900EC20F6 /* StripedView.swift in Sources */,
+				0808A8AA2A08D7C200CA3AB1 /* ActionBarView.swift in Sources */,
+				08CFE80A2A017BFD000B7FF0 /* SetViewModel.swift in Sources */,
+				084E43172A0A823D0090E74F /* Extensions.swift in Sources */,
+				0808A8A12A061A0600CA3AB1 /* SetSelection.swift in Sources */,
+				0865EA3A2A0A423F00EC20F6 /* TopBarView.swift in Sources */,
+				0808A8A82A08D53900CA3AB1 /* ShapeView.swift in Sources */,
+				0808A8A62A06384A00CA3AB1 /* Deck.swift in Sources */,
+				08CFE80E2A0183E0000B7FF0 /* SetCardViewModel.swift in Sources */,
+				08CFE7FE2A001156000B7FF0 /* SetGame.swift in Sources */,
 				08CFE7ED2A001130000B7FF0 /* SetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
