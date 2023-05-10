@@ -11,6 +11,12 @@ struct SetView: View {
     @ObservedObject var game: SetViewModel
     
     var body: some View {
+        let gameFinished = Binding<Bool>(
+            get: { self.game.isFinised
+            },
+            set: { _ in  }
+        )
+        
         ZStack {
             gameBackground
             
@@ -28,7 +34,16 @@ struct SetView: View {
                 
                 ActionBarView(canDeal: game.canDeal, deal: game.deal, newGame: game.newGame)
             }
-        }
+        }.alert(
+            Text("Finished"),
+            isPresented: gameFinished,
+            actions: {
+                Button("New game", action: { game.newGame() })
+            },
+            message: {
+                Text("Final Score: \(game.score)")
+            }
+        )
         
     }
     

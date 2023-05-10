@@ -27,6 +27,10 @@ class SetViewModel: ObservableObject {
         model.hintsLeft
     }
     
+    var isFinised: Bool {
+        model.isFinised
+    }
+    
     // MARK: Intents
     func select(_ card: SetCardViewModel) {
         if let cardIndex = model.cards.firstIndex(where: { $0.id == card.id }) {

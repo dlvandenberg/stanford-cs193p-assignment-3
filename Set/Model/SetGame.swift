@@ -41,6 +41,11 @@ struct SetGame<Deck: SetDeck> {
 
 // MARK: Dealing
 extension SetGame {
+    var isFinised: Bool {
+        // Game is finished when deck is empty and there are no more possible sets in cards
+        deck.isEmpty && findMatchingSet() == nil
+    }
+    
     var canDeal: Bool {
         !deck.isEmpty
     }
@@ -209,7 +214,7 @@ extension SetGame {
         print("Number of cards on table: \(cards.count)")
         print("Possible combinations: \(possibleCombinations.count)")
         
-        for combination in possibleCombinations {
+        for combination in possibleCombinations.shuffled() {
             if let set = SetSelection(firstCard: cards[combination[0]],
                                       secondCard: cards[combination[1]],
                                       thirdCard: cards[combination[2]]) {
